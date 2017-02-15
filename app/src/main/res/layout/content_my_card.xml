@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_my_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.annagib.mycard.MyCard"
+    tools:showIn="@layout/activity_my_card">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/AnnaD"
+        android:src="@drawable/anna_draw"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/inspiration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="40sp"
+        android:textColor="#7F7F7F"
+        android:text="You're Doing Great!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="cursive"
+        android:textSize="40sp"
+        android:textColor="#FFD700"
+        android:text="Don't Give Up" />
+</RelativeLayout>
